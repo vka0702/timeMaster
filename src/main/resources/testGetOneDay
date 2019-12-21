@@ -1,0 +1,20 @@
+{
+  "code_id": 12,
+  "assignments": [],
+  "wdate": "2018-10-02",
+  "start_time": 40870,
+  "stop_time": 42067,
+  "break_time": 0,
+  "comment": "comment from adminka1",
+  "month_day": 2,
+  "messages": [
+    {
+      "text": "Time must divide evenly by 0.25",
+      "message_type": "warning"
+    },
+    {
+      "text": "Time wasn't fully distributed",
+      "message_type": "warning"
+    }
+  ]
+}

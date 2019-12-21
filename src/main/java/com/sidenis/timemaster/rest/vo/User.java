@@ -1,7 +1,9 @@
 package com.sidenis.timemaster.rest.vo;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
+import java.util.stream.Collectors;
 
 public class User {
     private int id;
@@ -14,6 +16,20 @@ public class User {
     private boolean is_staff;
     private boolean is_active;
 
+    @Override
+    public String toString() {
+            return "User{" + "\n" +
+                    "id=" + id + "\n" +
+                    ", uid='" + uid + '\'' + "\n" +
+                    ", full_name='" + full_name + '\'' + "\n" +
+                    ", email='" + email + '\'' + "\n" +
+                    ", user_permissions=" + user_permissions.stream().map(s -> "\n"+s).collect(Collectors.toList()) + "\n" +
+                    ", is_superuser=" + is_superuser + "\n" +
+                    ", is_anonymous=" + is_anonymous + "\n" +
+                    ", is_staff=" + is_staff + "\n" +
+                    ", is_active=" + is_active + "\n" +
+                    '}';
+    }
 
     public int getId() { return id; }
 
@@ -64,7 +80,7 @@ public class User {
                 Objects.equals(uid, user.uid) &&
                 Objects.equals(full_name, user.full_name) &&
                 Objects.equals(email, user.email) &&
-                Objects.equals(user_permissions, user.user_permissions);
+                Objects.equals(user_permissions, null);
     }
 
     @Override

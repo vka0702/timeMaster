@@ -15,6 +15,21 @@ public class Day {
     private int month_day;
     private List<Message> messages;
 
+    @Override
+    public String toString() {
+        return "Day{" + "\n" +
+                "code_id=" + code_id + "\n" +
+                ", assignments=" + assignments + "\n" +
+                ", wdate='" + wdate + '\'' + "\n" +
+                ", start_time=" + start_time + "\n" +
+                ", stop_time=" + stop_time + "\n" +
+                ", break_time=" + break_time + "\n" +
+                ", comment='" + comment + '\'' + "\n" +
+                ", month_day=" + month_day + "\n" +
+                ", messages=" + messages + "\n" +
+                '}';
+    }
+
     public int getCode_id() {
         return code_id;
     }

@@ -2,23 +2,26 @@ package com.sidenis.timemaster.rest.controller;
 
 import com.jayway.restassured.http.ContentType;
 import com.jayway.restassured.path.json.JsonPath;
+import com.sidenis.timemaster.rest.vo.Day;
 
+import java.lang.reflect.Array;
+import java.util.List;
 import java.util.Map;
 
 import static com.jayway.restassured.RestAssured.given;
 
 //Kirill
 public class DaysController extends TimeMasterController {
-    protected static JsonPath getDaysForTheMonth(Map<String, String> cookies, String year, String month) {
+    protected static Day[] getDaysForTheMonth(Map<String, String> cookies, String year, String month) {
         return given()
                 .when().cookies(cookies).get("/api/days/current_user/"+year+"/"+month+"/")
-                .then().log().all().extract().jsonPath();
+                .then().log().all().extract().as(Day[].class);
     }
 
-    protected static JsonPath getOneDay(Map<String, String> cookies, String year, String month, String day) {
+    protected static Day getOneDay(Map<String, String> cookies, String year, String month, String day) {
         return given()
                 .when().cookies(cookies).log().all().get("/api/days/current_user/"+year+"/"+month+"/"+day+"/")
-                .then().log().all().extract().jsonPath();
+                .then().log().all().extract().as(Day.class);
     }
 
     protected static JsonPath postBreakTime(Map<String, String> cookies, Map body) {

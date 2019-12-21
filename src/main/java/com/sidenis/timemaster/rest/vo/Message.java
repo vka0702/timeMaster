@@ -6,6 +6,14 @@ public class Message {
     private String text;
     private String message_type;
 
+    @Override
+    public String toString() {
+        return "{" + "\n" +
+                "   text='" + text + '\'' + "\n" +
+                "   , message_type='" + message_type + '\'' + "\n" +
+                '}';
+    }
+
     public String getText() { return text; }
 
     public void setText(String text) { this.text = text; }

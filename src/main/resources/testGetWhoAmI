@@ -1,0 +1,11 @@
+{
+  "id": 163,
+  "uid": "alexey.avdeev",
+  "full_name": "Alexey Avdeev",
+  "email": "string@str.sy",
+  "user_permissions": null,
+  "is_superuser": true,
+  "is_anonymous": false,
+  "is_staff": true,
+  "is_active": true
+}

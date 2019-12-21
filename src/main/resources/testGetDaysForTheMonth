@@ -1,0 +1,562 @@
+[
+  {
+    "code_id": null,
+    "assignments": [],
+    "wdate": "2018-09-03",
+    "start_time": 33730,
+    "stop_time": 66890,
+    "break_time": 0,
+    "comment": null,
+    "month_day": 3,
+    "messages": [
+      {
+        "text": "Comment wasn't filled",
+        "message_type": "warning"
+      },
+      {
+        "text": "Time must divide evenly by 0.25",
+        "message_type": "warning"
+      },
+      {
+        "text": "Time wasn't fully distributed",
+        "message_type": "warning"
+      },
+      {
+        "text": "Fill in the day comment or fill the code column one of the following codes: %s",
+        "message_type": "warning"
+      }
+    ]
+  },
+  {
+    "code_id": null,
+    "assignments": [],
+    "wdate": "2018-09-04",
+    "start_time": 33685,
+    "stop_time": 64282,
+    "break_time": 0,
+    "comment": null,
+    "month_day": 4,
+    "messages": [
+      {
+        "text": "Comment wasn't filled",
+        "message_type": "warning"
+      },
+      {
+        "text": "Time must divide evenly by 0.25",
+        "message_type": "warning"
+      },
+      {
+        "text": "Time wasn't fully distributed",
+        "message_type": "warning"
+      },
+      {
+        "text": "Fill in the day comment or fill the code column one of the following codes: %s",
+        "message_type": "warning"
+      }
+    ]
+  },
+  {
+    "code_id": null,
+    "assignments": [],
+    "wdate": "2018-09-05",
+    "start_time": 33585,
+    "stop_time": 65469,
+    "break_time": 0,
+    "comment": null,
+    "month_day": 5,
+    "messages": [
+      {
+        "text": "Comment wasn't filled",
+        "message_type": "warning"
+      },
+      {
+        "text": "Time must divide evenly by 0.25",
+        "message_type": "warning"
+      },
+      {
+        "text": "Time wasn't fully distributed",
+        "message_type": "warning"
+      },
+      {
+        "text": "Fill in the day comment or fill the code column one of the following codes: %s",
+        "message_type": "warning"
+      }
+    ]
+  },
+  {
+    "code_id": null,
+    "assignments": [],
+    "wdate": "2018-09-06",
+    "start_time": 33630,
+    "stop_time": 71610,
+    "break_time": 0,
+    "comment": null,
+    "month_day": 6,
+    "messages": [
+      {
+        "text": "Comment wasn't filled",
+        "message_type": "warning"
+      },
+      {
+        "text": "Time must divide evenly by 0.25",
+        "message_type": "warning"
+      },
+      {
+        "text": "Time wasn't fully distributed",
+        "message_type": "warning"
+      },
+      {
+        "text": "Fill in the day comment or fill the code column one of the following codes: %s",
+        "message_type": "warning"
+      }
+    ]
+  },
+  {
+    "code_id": null,
+    "assignments": [],
+    "wdate": "2018-09-07",
+    "start_time": 33619,
+    "stop_time": 70068,
+    "break_time": 0,
+    "comment": null,
+    "month_day": 7,
+    "messages": [
+      {
+        "text": "Comment wasn't filled",
+        "message_type": "warning"
+      },
+      {
+        "text": "Time must divide evenly by 0.25",
+        "message_type": "warning"
+      },
+      {
+        "text": "Time wasn't fully distributed",
+        "message_type": "warning"
+      },
+      {
+        "text": "Fill in the day comment or fill the code column one of the following codes: %s",
+        "message_type": "warning"
+      }
+    ]
+  },
+  {
+    "code_id": null,
+    "assignments": [],
+    "wdate": "2018-09-10",
+    "start_time": 36002,
+    "stop_time": 68897,
+    "break_time": 0,
+    "comment": null,
+    "month_day": 10,
+    "messages": [
+      {
+        "text": "Comment wasn't filled",
+        "message_type": "warning"
+      },
+      {
+        "text": "Time must divide evenly by 0.25",
+        "message_type": "warning"
+      },
+      {
+        "text": "Time wasn't fully distributed",
+        "message_type": "warning"
+      },
+      {
+        "text": "Fill in the day comment or fill the code column one of the following codes: %s",
+        "message_type": "warning"
+      }
+    ]
+  },
+  {
+    "code_id": null,
+    "assignments": [],
+    "wdate": "2018-09-11",
+    "start_time": 34240,
+    "stop_time": 64394,
+    "break_time": 0,
+    "comment": null,
+    "month_day": 11,
+    "messages": [
+      {
+        "text": "Comment wasn't filled",
+        "message_type": "warning"
+      },
+      {
+        "text": "Time must divide evenly by 0.25",
+        "message_type": "warning"
+      },
+      {
+        "text": "Time wasn't fully distributed",
+        "message_type": "warning"
+      },
+      {
+        "text": "Fill in the day comment or fill the code column one of the following codes: %s",
+        "message_type": "warning"
+      }
+    ]
+  },
+  {
+    "code_id": null,
+    "assignments": [],
+    "wdate": "2018-09-12",
+    "start_time": 38352,
+    "stop_time": 52640,
+    "break_time": 0,
+    "comment": null,
+    "month_day": 12,
+    "messages": [
+      {
+        "text": "Comment wasn't filled",
+        "message_type": "warning"
+      },
+      {
+        "text": "Time must divide evenly by 0.25",
+        "message_type": "warning"
+      },
+      {
+        "text": "Time wasn't fully distributed",
+        "message_type": "warning"
+      },
+      {
+        "text": "Fill in the day comment or fill the code column one of the following codes: %s",
+        "message_type": "warning"
+      }
+    ]
+  },
+  {
+    "code_id": null,
+    "assignments": [],
+    "wdate": "2018-09-13",
+    "start_time": 36095,
+    "stop_time": 69080,
+    "break_time": 0,
+    "comment": null,
+    "month_day": 13,
+    "messages": [
+      {
+        "text": "Comment wasn't filled",
+        "message_type": "warning"
+      },
+      {
+        "text": "Time must divide evenly by 0.25",
+        "message_type": "warning"
+      },
+      {
+        "text": "Time wasn't fully distributed",
+        "message_type": "warning"
+      },
+      {
+        "text": "Fill in the day comment or fill the code column one of the following codes: %s",
+        "message_type": "warning"
+      }
+    ]
+  },
+  {
+    "code_id": null,
+    "assignments": [],
+    "wdate": "2018-09-14",
+    "start_time": 39194,
+    "stop_time": 69226,
+    "break_time": 0,
+    "comment": null,
+    "month_day": 14,
+    "messages": [
+      {
+        "text": "Comment wasn't filled",
+        "message_type": "warning"
+      },
+      {
+        "text": "Time must divide evenly by 0.25",
+        "message_type": "warning"
+      },
+      {
+        "text": "Time wasn't fully distributed",
+        "message_type": "warning"
+      },
+      {
+        "text": "Fill in the day comment or fill the code column one of the following codes: %s",
+        "message_type": "warning"
+      }
+    ]
+  },
+  {
+    "code_id": null,
+    "assignments": [],
+    "wdate": "2018-09-17",
+    "start_time": 36418,
+    "stop_time": 73261,
+    "break_time": 0,
+    "comment": null,
+    "month_day": 17,
+    "messages": [
+      {
+        "text": "Comment wasn't filled",
+        "message_type": "warning"
+      },
+      {
+        "text": "Time must divide evenly by 0.25",
+        "message_type": "warning"
+      },
+      {
+        "text": "Time wasn't fully distributed",
+        "message_type": "warning"
+      },
+      {
+        "text": "Fill in the day comment or fill the code column one of the following codes: %s",
+        "message_type": "warning"
+      }
+    ]
+  },
+  {
+    "code_id": null,
+    "assignments": [],
+    "wdate": "2018-09-18",
+    "start_time": 35989,
+    "stop_time": 71617,
+    "break_time": 0,
+    "comment": null,
+    "month_day": 18,
+    "messages": [
+      {
+        "text": "Comment wasn't filled",
+        "message_type": "warning"
+      },
+      {
+        "text": "Time must divide evenly by 0.25",
+        "message_type": "warning"
+      },
+      {
+        "text": "Time wasn't fully distributed",
+        "message_type": "warning"
+      },
+      {
+        "text": "Fill in the day comment or fill the code column one of the following codes: %s",
+        "message_type": "warning"
+      }
+    ]
+  },
+  {
+    "code_id": null,
+    "assignments": [],
+    "wdate": "2018-09-19",
+    "start_time": 38360,
+    "stop_time": 57154,
+    "break_time": 0,
+    "comment": null,
+    "month_day": 19,
+    "messages": [
+      {
+        "text": "Comment wasn't filled",
+        "message_type": "warning"
+      },
+      {
+        "text": "Time must divide evenly by 0.25",
+        "message_type": "warning"
+      },
+      {
+        "text": "Time wasn't fully distributed",
+        "message_type": "warning"
+      },
+      {
+        "text": "Fill in the day comment or fill the code column one of the following codes: %s",
+        "message_type": "warning"
+      }
+    ]
+  },
+  {
+    "code_id": null,
+    "assignments": [],
+    "wdate": "2018-09-20",
+    "start_time": 35987,
+    "stop_time": 64728,
+    "break_time": 0,
+    "comment": null,
+    "month_day": 20,
+    "messages": [
+      {
+        "text": "Comment wasn't filled",
+        "message_type": "warning"
+      },
+      {
+        "text": "Time must divide evenly by 0.25",
+        "message_type": "warning"
+      },
+      {
+        "text": "Time wasn't fully distributed",
+        "message_type": "warning"
+      },
+      {
+        "text": "Fill in the day comment or fill the code column one of the following codes: %s",
+        "message_type": "warning"
+      }
+    ]
+  },
+  {
+    "code_id": null,
+    "assignments": [],
+    "wdate": "2018-09-21",
+    "start_time": 38408,
+    "stop_time": 69089,
+    "break_time": 0,
+    "comment": null,
+    "month_day": 21,
+    "messages": [
+      {
+        "text": "Comment wasn't filled",
+        "message_type": "warning"
+      },
+      {
+        "text": "Time must divide evenly by 0.25",
+        "message_type": "warning"
+      },
+      {
+        "text": "Time wasn't fully distributed",
+        "message_type": "warning"
+      },
+      {
+        "text": "Fill in the day comment or fill the code column one of the following codes: %s",
+        "message_type": "warning"
+      }
+    ]
+  },
+  {
+    "code_id": null,
+    "assignments": [],
+    "wdate": "2018-09-24",
+    "start_time": 36255,
+    "stop_time": 54080,
+    "break_time": 0,
+    "comment": null,
+    "month_day": 24,
+    "messages": [
+      {
+        "text": "Comment wasn't filled",
+        "message_type": "warning"
+      },
+      {
+        "text": "Time must divide evenly by 0.25",
+        "message_type": "warning"
+      },
+      {
+        "text": "Time wasn't fully distributed",
+        "message_type": "warning"
+      },
+      {
+        "text": "Fill in the day comment or fill the code column one of the following codes: %s",
+        "message_type": "warning"
+      }
+    ]
+  },
+  {
+    "code_id": null,
+    "assignments": [],
+    "wdate": "2018-09-25",
+    "start_time": 36149,
+    "stop_time": 69485,
+    "break_time": 0,
+    "comment": null,
+    "month_day": 25,
+    "messages": [
+      {
+        "text": "Comment wasn't filled",
+        "message_type": "warning"
+      },
+      {
+        "text": "Time must divide evenly by 0.25",
+        "message_type": "warning"
+      },
+      {
+        "text": "Time wasn't fully distributed",
+        "message_type": "warning"
+      },
+      {
+        "text": "Fill in the day comment or fill the code column one of the following codes: %s",
+        "message_type": "warning"
+      }
+    ]
+  },
+  {
+    "code_id": null,
+    "assignments": [],
+    "wdate": "2018-09-26",
+    "start_time": 37659,
+    "stop_time": 47000,
+    "break_time": 0,
+    "comment": null,
+    "month_day": 26,
+    "messages": [
+      {
+        "text": "Comment wasn't filled",
+        "message_type": "warning"
+      },
+      {
+        "text": "Time must divide evenly by 0.25",
+        "message_type": "warning"
+      },
+      {
+        "text": "Time wasn't fully distributed",
+        "message_type": "warning"
+      },
+      {
+        "text": "Fill in the day comment or fill the code column one of the following codes: %s",
+        "message_type": "warning"
+      }
+    ]
+  },
+  {
+    "code_id": null,
+    "assignments": [],
+    "wdate": "2018-09-27",
+    "start_time": 36183,
+    "stop_time": 71633,
+    "break_time": 0,
+    "comment": null,
+    "month_day": 27,
+    "messages": [
+      {
+        "text": "Comment wasn't filled",
+        "message_type": "warning"
+      },
+      {
+        "text": "Time must divide evenly by 0.25",
+        "message_type": "warning"
+      },
+      {
+        "text": "Time wasn't fully distributed",
+        "message_type": "warning"
+      },
+      {
+        "text": "Fill in the day comment or fill the code column one of the following codes: %s",
+        "message_type": "warning"
+      }
+    ]
+  },
+  {
+    "code_id": null,
+    "assignments": [],
+    "wdate": "2018-09-28",
+    "start_time": 36449,
+    "stop_time": 61859,
+    "break_time": 0,
+    "comment": null,
+    "month_day": 28,
+    "messages": [
+      {
+        "text": "Comment wasn't filled",
+        "message_type": "warning"
+      },
+      {
+        "text": "Time must divide evenly by 0.25",
+        "message_type": "warning"
+      },
+      {
+        "text": "Time wasn't fully distributed",
+        "message_type": "warning"
+      },
+      {
+        "text": "Fill in the day comment or fill the code column one of the following codes: %s",
+        "message_type": "warning"
+      }
+    ]
+  }
+]

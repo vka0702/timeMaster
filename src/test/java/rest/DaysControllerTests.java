@@ -1,14 +1,13 @@
 package rest;
 
 import com.sidenis.timemaster.rest.controller.DaysController;
+import com.sidenis.timemaster.rest.vo.Day;
 import net.minidev.json.JSONObject;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.io.*;
+import java.util.*;
 
 import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.assertEquals;
@@ -17,31 +16,36 @@ import static org.junit.Assert.assertTrue;
 
 public class DaysControllerTests extends DaysController {
 
+//    private String getFile(String filename) {
+//        String expectedDay = "";
+//        ClassLoader classLoader = getClass().getClassLoader();
+//        try {
+//            expectedDay = IOUtils
+//        }
+//    }
+
     private static  Map<String, String> cookies;
     @BeforeClass
     public static void log() {
         cookies = login(userName_AA, userPassword_AA);
     }
     @Test
-    public void testGetDaysForTheMonth() {
+    public void testGetDaysForTheMonth() throws IOException {
         String year = "2018";
-        String month = "10";
-        List<String> dates = getDaysForTheMonth(cookies,year,month).get("wdate");
-        for (String i: dates) {
-            assertThat(i, is(containsString(year+"-"+month)));
-        }
+        String month = "09";
+        Day[] actualDays = getDaysForTheMonth(cookies,year,month);
+        Day[] expectedDays = getExpectedJsonFromFile("testGetDaysForTheMonth", Day[].class);
+        assertEquals(expectedDays, actualDays);
     }
 
     @Test
-    public void testGetOneDay() {
+    public void testGetOneDay() throws IOException {
         String year = "2018";
         String month = "10";
-        String day = "04";
-        String date = getOneDay(cookies, year, month, day).get("wdate");
-        if (date != null) {
-            assertEquals(year+"-"+month+"-"+day, date);
-        }
-        else System.out.println("Date is null");
+        String day = "02";
+        Day actualDay = getOneDay(cookies, year, month, day);
+        Day expectedDay = getExpectedJsonFromFile("testGetOneDay", Day.class);
+        assertEquals(expectedDay,actualDay);
     }
 
     @Test
